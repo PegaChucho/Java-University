@@ -42,7 +42,5 @@ public class Persona {
     public String toString() {
         return "Persona{" + "idPersona=" + idPersona + ", nombre=" + nombre + '}';
     }
-    
-    
 
 }
