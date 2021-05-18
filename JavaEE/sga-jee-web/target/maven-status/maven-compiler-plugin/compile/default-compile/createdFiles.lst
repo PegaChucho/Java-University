@@ -1,0 +1,5 @@
+mx\com\pegachucho\sga\servicio\PersonaService.class
+mx\com\pegachucho\sga\servicio\PersonaServiceImpl.class
+mx\com\pegachucho\sga\web\PersonaServlet.class
+mx\com\pegachucho\sga\domain\Persona.class
+mx\com\pegachucho\sga\servicio\PersonaServiceRemote.class

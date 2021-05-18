@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+    <h:head>
+        <title>Éxito</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="./WEB-INF/templates/template.xhtml">
+            <ui:define name="content">
+
+                <h:form>
+                    Gracias #{candidato.nombre} por aplicar a la vacante, te espera un gran éxito.
+                    <br/>
+                    <h:commandLink action="index">Regresar al inicio</h:commandLink>        
+                </h:form>
+
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
