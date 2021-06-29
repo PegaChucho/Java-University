@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Java/fundamentos/Aritmética/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/Arrays/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/Caja/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/ContextoEstático/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/Encapsulamiento/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/Herencia/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/HolaMundo/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/Matrices/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/MundoPC/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/PalabraFinal/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/Paquetes/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/ShopApp/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/SobrecargaMetodos/src"/>
+	<classpathentry kind="src" path="Java/fundamentos/VentasTest/src"/>
+	<classpathentry kind="src" path="Java/programacion/ArgumentosVariables/src"/>
+	<classpathentry kind="src" path="Java/programacion/AutoboxingUnboxing/src"/>
+	<classpathentry kind="src" path="Java/programacion/ClaseObject/src"/>
+	<classpathentry kind="src" path="Java/programacion/ClasesAbstractas/src"/>
+	<classpathentry kind="src" path="Java/programacion/ConversionObjetos/src"/>
+	<classpathentry kind="src" path="Java/programacion/Enumeraciones/src"/>
+	<classpathentry kind="src" path="Java/programacion/ForEach/src"/>
+	<classpathentry kind="src" path="Java/programacion/InstanceOf/src"/>
+	<classpathentry kind="src" path="Java/programacion/Interfaces/src"/>
+	<classpathentry kind="src" path="Java/programacion/JavaApplication16/src"/>
+	<classpathentry kind="src" path="Java/programacion/JavaBeans/src"/>
+	<classpathentry kind="src" path="Java/programacion/ManejoExcepciones1/src"/>
+	<classpathentry kind="src" path="Java/programacion/ModificadoresAcceso/src"/>
+	<classpathentry kind="src" path="Java/programacion/Sobreescritura/src"/>
+	<classpathentry kind="output" path="Java/fundamentos/Aritmética/build/classes"/>
+</classpath>

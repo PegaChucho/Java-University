@@ -1,0 +1,7 @@
+mx\com\pegachucho\sga\datos\PersonaDaoImpl.class
+mx\com\pegachucho\sga\servicio\PersonaServiceImpl.class
+mx\com\pegachucho\sga\domain\Persona.class
+mx\com\pegachucho\sga\datos\iPersonaDAO.class
+mx\com\pegachucho\sga\servicio\iPersonaService.class
+mx\com\pegachucho\sga\web\PersonaServlet.class
+mx\com\pegachucho\sga\servicio\iPersonaServiceRemote.class

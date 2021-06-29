@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+    <head>
+        <title>Plantilla</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <header th:fragment="header">
+            <h1 th:text="#{plantilla.titulo}">Titulo</h1> <!-- Viene del archivo de messages.propierties -->
+        </header>
+
+        <footer th:fragment="footer">
+            <div>
+                <br/>
+                <a th:href="@{/(lang=es)}">ES</a> |
+                <a th:href="@{/(lang=en)}">EN</a> |
+                <span> [[#{plantilla.pie-pagina}]] <a href="https://github.com/PegaChucho" target="_blank">GitHub</a></span> <!-- con el doble corchete podemos agregar el mensaje dentro de la etiqueta -->
+                <form th:action="@{/logout}" method="POST">
+                    <b>User: </b><span sec:authentication="name">Usuario logeado</span> |
+                    <b>Roles: </b><span sec:authentication="principal.authorities">Roles</span> |
+                    <a href="#" onclick="this.parentNode.submit()">Logout</a> <!-- Alternativa al boton de submit con JS -->
+                </form>
+            </div>
+        </footer>
+        
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Datos de la persona</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <h1>Datos de la persona</h1>
+        <a th:href="@{/}">Regresar</a>
+        <br/>
+        <!-- En la siguiente linea mandamos el objeto de tipo persona al controlador en el método agregar -->
+        <form th:action="@{/guardar}" method="POST" th:object="${persona}">
+            <input type="hidden" name="idPersona" th:field="*{idPersona}"/> <!-- Para recuperar tambien el id y no se repitan los registros -->
+            <br/>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" th:field="*{nombre}"/> <!-- ${persona.nombre} -->
+            <span th:if="${#fields.hasErrors('nombre')}" th:errors="*{nombre}">Error</span>
+            <br/>
+            <label for="nombre">Apellido:</label>
+            <input type="text" name="nombre" th:field="*{apellido}"/>
+            <span th:if="${#fields.hasErrors('apellido')}" th:errors="*{apellido}">Error</span>
+            <br/>
+            <label for="nombre">Email:</label>
+            <input type="text" name="nombre" th:field="*{email}"/> <!-- Se cambió el tipo para que no hiciera la validacion html sino la de spring -->
+            <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Error</span>
+            <br/>
+            <label for="nombre">Teléfono:</label>
+            <input type="tel" name="telefono" th:field="*{telefono}"/> 
+            <br/>
+            <input type="submit" name="guardar" value="Guardar"/>
+        </form>
+    </body>
+</html>
